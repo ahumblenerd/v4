@@ -18,14 +18,14 @@ const FooterContainer = styled.footer`
   ${mixins.flexCenter};
   flex-direction: column;
   padding: 15px;
-  background-color: ${colors.darkNavy};
+  background-color: ${colors.pureBlack};
   color: ${colors.slate};
   text-align: center;
   height: auto;
   min-height: 70px;
 `;
 const SocialContainer = styled.div`
-  color: ${colors.lightSlate};
+  color: ${colors.pureGrey};
   width: 100%;
   max-width: 270px;
   margin: 0 auto 10px;
@@ -49,7 +49,7 @@ const Copy = styled.div`
   line-height: 1;
 `;
 const GithubLink = styled.a`
-  color: ${colors.slate};
+  color: ${colors.pureGrey};
 `;
 const GithubInfo = styled.div`
   margin-top: 10px;

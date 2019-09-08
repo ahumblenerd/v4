@@ -63,29 +63,30 @@ const Tab = styled.button`
   height: ${theme.tabHeight}px;
   padding: 0 20px 2px;
   transition: ${theme.transition};
-  border-left: 2px solid ${colors.darkGrey};
+  border-left: 2px solid ${colors.pureGrey};
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smallish};
-  color: ${props => (props.isActive ? colors.green : colors.lightGrey)};
+  color: ${props => (props.isActive ? colors.pureGrey : colors.pureBlack)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};
     padding: 0 15px;
     text-align: center;
     border-left: 0;
-    border-bottom: 2px solid ${colors.darkGrey};
+    border-bottom: 2px solid ${colors.pureGrey};
     min-width: 120px;
   `};
   &:hover,
   &:focus {
-    background-color: ${colors.lightNavy};
+    background-color: ${colors.pureGrey};
+    color: ${colors.pureWhite};
   }
 `;
 const Highlighter = styled.span`
   display: block;
-  background: ${colors.green};
+  background: ${colors.pureBlack};
   width: 2px;
   height: ${theme.tabHeight}px;
   border-radius: ${theme.borderRadius};
@@ -125,7 +126,7 @@ const TabContent = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  color: ${colors.pureBlack};
   opacity: ${props => (props.isActive ? 1 : 0)};
   z-index: ${props => (props.isActive ? 2 : -1)};
   position: ${props => (props.isActive ? 'relative' : 'absolute')};
@@ -145,7 +146,7 @@ const TabContent = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: ${colors.green};
+        color: ${colors.pureBlack};
         line-height: ${fontSizes.xlarge};
       }
     }
@@ -155,20 +156,20 @@ const TabContent = styled.div`
   }
 `;
 const JobTitle = styled.h4`
-  color: ${colors.lightestSlate};
+  color: ${colors.pureGrey};
   font-size: ${fontSizes.xxlarge};
   font-weight: 500;
   margin-bottom: 5px;
 `;
 const Company = styled.span`
-  color: ${colors.green};
+  color: ${colors.pureBlack};
 `;
 const JobDetails = styled.h5`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smallish};
   font-weight: normal;
   letter-spacing: 0.5px;
-  color: ${colors.lightSlate};
+  color: ${colors.pureGrey};
   margin-bottom: 30px;
   svg {
     width: 15px;

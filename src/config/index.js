@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Arun Purushothaman | Backend Engineer',
   siteDescription:
     'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
   siteKeywords:
@@ -9,10 +9,10 @@ module.exports = {
 
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
 
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7/',
+  name: 'Arun Purushothaman',
+  location: 'Cochin, Kerala',
+  email: 'ahumblenerd@gmail.com',
+  github: 'https://github.com/ahumblenerd/',
   socialMedia: [
     {
       name: 'Github',
@@ -59,10 +59,6 @@ module.exports = {
   googleAnalyticsID: 'UA-45666519-2',
 
   navHeight: 100,
-
-  greenColor: '#64ffda',
-  navyColor: '#0a192f',
-  darkNavyColor: '#020c1b',
 
   srConfig: (delay = 200) => ({
     origin: 'bottom',

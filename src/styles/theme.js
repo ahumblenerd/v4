@@ -1,5 +1,9 @@
 const theme = {
   colors: {
+    pureBlack: '#000000',
+    pureWhite: '#fff',
+    pureGrey: '#606a86',
+    lessPureGrey: '#abacaf',
     dark: '#000007',
     darkestNavy: '#01050b',
     darkNavy: '#020c1b',

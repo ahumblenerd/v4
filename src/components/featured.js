@@ -26,7 +26,7 @@ const ContentContainer = styled.div`
 const FeaturedLabel = styled.h4`
   font-size: ${fontSizes.smallish};
   font-weight: normal;
-  color: ${colors.green};
+  color: ${colors.lessPureGrey};
   font-family: ${fonts.SFMono};
   margin-top: 10px;
   padding-top: 0;
@@ -35,7 +35,7 @@ const ProjectName = styled.h5`
   font-size: 28px;
   font-weight: 600;
   margin: 0 0 20px;
-  color: ${colors.lightestSlate};
+  color: ${colors.pureBlack};
   ${media.tablet`font-size: 24px;`};
   a {
     ${media.tablet`display: block;`};
@@ -46,8 +46,8 @@ const ProjectDescription = styled.div`
   position: relative;
   z-index: 2;
   padding: 25px;
-  background-color: ${colors.lightNavy};
-  color: ${colors.lightSlate};
+  background-color: ${colors.pureBlack};
+  color: ${colors.pureWhite};
   font-size: ${fontSizes.large};
   border-radius: ${theme.borderRadius};
   ${media.thone`
@@ -69,7 +69,7 @@ const TechList = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.smallish};
-    color: ${colors.lightSlate};
+    color: ${colors.pureGrey};
     margin-right: ${theme.margin};
     margin-bottom: 7px;
     white-space: nowrap;
@@ -117,7 +117,7 @@ const ImgContainer = styled.a`
   grid-row: 1 / -1;
   position: relative;
   z-index: 1;
-  background-color: ${colors.green};
+  background-color: ${colors.lessPureGrey};
   border-radius: ${theme.radius + 1}px;
   transition: ${theme.transition};
   ${media.tablet`height: 100%;`};
@@ -145,7 +145,7 @@ const ImgContainer = styled.a`
     bottom: 0;
     z-index: 3;
     transition: ${theme.transition};
-    background-color: ${colors.navy};
+    background-color: ${colors.pureGrey};
     mix-blend-mode: screen;
   }
 `;

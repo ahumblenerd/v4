@@ -15,7 +15,7 @@ const NavContainer = styled.header`
   position: fixed;
   top: 0;
   padding: 0px 50px;
-  background-color: ${colors.navy};
+  background-color: ${colors.pureWhite};
   transition: ${theme.transition};
   z-index: 11;
   filter: none !important;
@@ -24,7 +24,7 @@ const NavContainer = styled.header`
   width: 100%;
   height: ${props => (props.scrollDirection === 'none' ? theme.navHeight : theme.navScrollHeight)};
   box-shadow: ${props =>
-    props.scrollDirection === 'up' ? `0 10px 30px -10px ${colors.shadowNavy}` : 'none'};
+    props.scrollDirection === 'up' ? `0 10px 30px -10px ${colors.pureWhite}` : 'none'};
   transform: translateY(
     ${props => (props.scrollDirection === 'down' ? `-${theme.navScrollHeight}` : '0px')}
   );
@@ -35,7 +35,7 @@ const Navbar = styled.nav`
   ${mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: ${colors.lightestSlate};
+  color: ${colors.pureBlack};
   font-family: ${fonts.SFMono};
   counter-reset: item 0;
   z-index: 12;
@@ -45,13 +45,13 @@ const Logo = styled.div`
 `;
 const LogoLink = styled.a`
   display: block;
-  color: ${colors.green};
+  color: ${colors.pureBlack};
   width: 42px;
   height: 42px;
   &:hover,
   &:focus {
     svg {
-      fill: ${colors.transGreen};
+      fill: ${colors.pureBlack};
     }
   }
   svg {
@@ -70,7 +70,7 @@ const Hamburger = styled.div`
   transition-duration: 0.15s;
   transition-property: opacity, filter;
   text-transform: none;
-  color: inherit;
+  color: ${colors.pureBlack};
   border: 0;
   background-color: transparent;
   display: none;
@@ -83,7 +83,7 @@ const HamburgerBox = styled.div`
   height: 24px;
 `;
 const HamburgerInner = styled.div`
-  background-color: ${colors.green};
+  background-color: ${colors.pureBlack};
   position: absolute;
   width: ${theme.hamburgerWidth}px;
   height: 2px;
@@ -102,7 +102,7 @@ const HamburgerInner = styled.div`
   &:after {
     content: '';
     display: block;
-    background-color: ${colors.green};
+    background-color: ${colors.pureBlack};
     position: absolute;
     left: auto;
     right: 0;
@@ -144,7 +144,7 @@ const NavListItem = styled.li`
   &:before {
     content: '0' counter(item) '.';
     text-align: right;
-    color: ${colors.green};
+    color: ${colors.pureBlack};
     font-size: ${fontSizes.xsmall};
   }
 `;
