@@ -1,12 +1,14 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - Dec 2015'
-url: 'https://www.upstatement.com/'
+date: '2017-01-01'
+title: 'CTO/ Founder'
+company: 'Sieve 2.0'
+location: 'Palo Alto'
+range: 'June - May 2019'
+url: 'https://www.sievehq.com/'
 ---
 
-- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Converted our existing application into a SaaS solution. Our solution statck including onboarding-tools, video-conferencing, conversational workflow, requirement-management, invoicing, payment-routing, digital contract management.
+- Trained our new recruits in Java and javascript.
+- Management the devops pipelines which including a jenkins based CI/CD pipeline.
+- Designed a small json to contract generator with our javascript team with an inhouse templating language for programatic contract generation.
+- Designed our user based frontend loading system, which loads a different react-application based on the user allowing us to reduce the payload size.

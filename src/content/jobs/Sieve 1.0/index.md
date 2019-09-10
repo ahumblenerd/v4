@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
+date: '2016-05-01'
+title: 'Founder / CTO '
 company: 'Sieve 1.0'
 location: 'Palo Alto, CA'
 range: 'May - Dec 2017'
-url: 'https://www.apple.com/music/'
+url: 'https://www.sievehq.com'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Architected and built Sieve 1.0, a curated freelancing platform which connects freelancers to their customers.
+- As the sole developer on the project, I built everything from frontend ( html, css, javascript ) and backend in Django.
+- Our features included payment-processing, freelancer-customer matching, project-health monitoring and management workflows.
+- Acted as a solutions-architect for all our downstream projects and was part of the pre-development quality evaluation team.

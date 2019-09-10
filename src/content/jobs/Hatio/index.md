@@ -1,12 +1,13 @@
 ---
-date: '2018-04-01'
-title: 'Studio Developer'
+date: '2019-06-01'
+title: 'Sr Engineer ( Contract ) '
 company: 'Hatio'
 location: 'Mumbai'
 range: 'June - September 2019'
-url: 'https://web.northeastern.edu/scout/'
+url: 'https://hatio.in/'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Worked on EMVCO 3DS 2.0 upgrade for Hatio's parent company Billdesk.
+- Architected and build the core framework which acts as a base platform for our 3DS and ACS servers.
+- Our framework included channel agnostic inter service communications layer, configurable validations system and bunch of other services tailored for our needs.
+- Built the encyption manager that handles secure message transport as per EMVCO specification.
