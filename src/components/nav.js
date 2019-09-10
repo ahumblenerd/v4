@@ -48,14 +48,8 @@ const LogoLink = styled.a`
   color: ${colors.pureBlack};
   width: 42px;
   height: 42px;
-  &:hover,
-  &:focus {
-    svg {
-      fill: ${colors.pureBlack};
-    }
-  }
   svg {
-    fill: none;
+    fill: ${colors.pureBlack};
     transition: ${theme.transition};
     user-select: none;
   }

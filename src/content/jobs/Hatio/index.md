@@ -1,9 +1,9 @@
 ---
 date: '2018-04-01'
 title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'Jan - April 2018'
+company: 'Hatio'
+location: 'Mumbai'
+range: 'June - September 2019'
 url: 'https://web.northeastern.edu/scout/'
 ---
 
