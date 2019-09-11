@@ -51,15 +51,21 @@ const ProjectDescription = styled.div`
   font-size: ${fontSizes.large};
   border-radius: ${theme.borderRadius};
   ${media.thone`
-    background-color: transparent;
-    padding: 20px 0;
+    background-color: ${colors.pureBlack};
+    padding-left: 20px;
+    padding-right : 20px;
+    padding-top:20px;
+    padding-bottom:20px;
   `};
   p {
     margin: 0;
   }
   a {
     ${mixins.inlineLink};
-    color: ${colors.white};
+    color: ${colors.pureWhite};
+    ${media.thone`
+        color: ${colors.pureWhite};
+    `};
   }
 `;
 const TechList = styled.ul`
@@ -77,7 +83,7 @@ const TechList = styled.ul`
       margin-right: 0;
     }
     ${media.thone`
-      color: ${colors.lightestSlate};
+      color: ${colors.pureBlack};
       margin-right: 10px;
     `};
   }
@@ -94,6 +100,9 @@ const Links = styled.div`
       width: 22px;
       height: 22px;
     }
+    ${media.thone`
+        color: ${colors.pureBlack};
+    `};
   }
 `;
 const FeaturedImg = styled(Img)`
@@ -102,7 +111,6 @@ const FeaturedImg = styled(Img)`
   vertical-align: middle;
   border-radius: ${theme.borderRadius};
   position: relative;
-  mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1) brightness(90%);
   ${media.tablet`
     object-fit: cover;
@@ -145,8 +153,6 @@ const ImgContainer = styled.a`
     bottom: 0;
     z-index: 3;
     transition: ${theme.transition};
-    background-color: ${colors.pureGrey};
-    mix-blend-mode: screen;
   }
 `;
 const Project = styled.div`
@@ -204,7 +210,7 @@ const Featured = ({ data }) => {
 
   return (
     <FeaturedContainer id="projects">
-      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <Heading ref={revealTitle}>A few things I have built.</Heading>
 
       <div>
         {featuredProjects &&
