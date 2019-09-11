@@ -51,6 +51,11 @@ module.exports = {
 
   navHeight: 100,
 
+  pureBlack: '#000000',
+  pureWhite: '#fff',
+  pureGrey: '#606a86',
+  lessPureGrey: '#abacaf',
+
   srConfig: (delay = 200) => ({
     origin: 'bottom',
     distance: '20px',
