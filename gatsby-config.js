@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'ArunPurushothaman',
-        short_name: 'ArunPurushothaman',
+        name: 'Arun Purushothaman',
+        short_name: 'Arun Purushothaman',
         start_url: '/',
         background_color: config.pureBlack,
         theme_color: config.pureBlack,
