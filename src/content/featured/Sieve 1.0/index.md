@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Sieve 1.0'
-cover: './halcyon.png'
+cover: './sieve.png'
 github: ''
 external: ''
 tech:

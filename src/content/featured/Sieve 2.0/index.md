@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Sieve 2.0'
-cover: './octoprofile.png'
+cover: './sieve.png'
 github: ''
 external: 'https://sievehq.com'
 tech:
