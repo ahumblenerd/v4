@@ -7,7 +7,7 @@ range: 'June - September 2019'
 url: 'https://hatio.in/'
 ---
 
-- Worked on EMVCO 3DS 2.0 upgrade for Hatio's parent company Billdesk.
+- Worked on EMVCO 3DS 2.0 project at Hatio.
 - Architected and build the core framework which acts as a base platform for our 3DS and ACS servers.
-- Our framework included channel agnostic inter service communications layer, configurable validations system and bunch of other services tailored for our needs.
+- Our framework included channel agnostic inter service communications layer, configurable validations framework, unified exceptions transformation framework et al.
 - Built the encyption manager that handles secure message transport as per EMVCO specification.
