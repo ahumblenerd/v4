@@ -3,7 +3,7 @@ date: '2019-06-01'
 title: 'Sr Engineer ( Contract ) '
 company: 'Hatio'
 location: 'Mumbai'
-range: 'June - September 2019'
+range: 'June - October 2019'
 url: 'https://hatio.in/'
 ---
 
@@ -11,3 +11,5 @@ url: 'https://hatio.in/'
 - Architected and build the core framework which acts as a base platform for our 3DS and ACS servers.
 - Our framework included channel agnostic inter service communications layer, configurable validations framework, unified exceptions transformation framework et al.
 - Built the encryption manager that handles secure message transport as per EMVCO specification.
+- Same stack can support multiple emvco versions.
+- Delivered EMVCO compliant 3DS stack in 6 months.
